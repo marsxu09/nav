@@ -1,1 +1,0 @@
-import{d as a}from"./chunk-NSAZ3QK3.js";import{ob as r,wb as e}from"./chunk-MWFTMKRG.js";var n=class t{constructor(i){this.sanitized=i}transform(i){return this.sanitized.bypassSecurityTrustHtml(i)}static \u0275fac=function(m){return new(m||t)(r(a,16))};static \u0275pipe=e({name:"safeHtml",type:t,pure:!0})};export{n as a};
