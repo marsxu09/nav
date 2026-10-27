@@ -8,14 +8,16 @@
   <header class="sheader dark-bg-gary dark-shadow">
     <div class="headerbox">
       <div class="hitem py-2 md:py-0">
-        <img
-          class="logo"
-          [src]="commonService.settings().favicon"
-          draggable="false"
-        />
-        <div class="title dark-white">
-          {{ commonService.settings().superTitle || commonService.title() }}
-        </div>
+        <a href="/" class="logo-link">
+          <img
+            class="logo"
+            [src]="commonService.settings().favicon"
+            draggable="false"
+          />
+          <div class="title dark-white">
+            {{ commonService.settings().superTitle || commonService.title() }}
+          </div>
+        </a>
       </div>
 
       <div class="topnav hidden md:flex" #parent>
