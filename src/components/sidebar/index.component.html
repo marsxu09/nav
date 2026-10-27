@@ -30,23 +30,25 @@
     class="logo dark-bg dark-border-color2 pointer-events-none md:pointer-events-auto"
     (click)="handleCollapsed()"
   >
-    <ng-content *ngIf="logoImage; else noLogo">
-      <img
-        [src]="commonService.settings().favicon"
-        class="logo-img"
-        *ngIf="isCollapsed; else noCollased"
-      />
-      <ng-template #noCollased>
-        <img class="pointer-events-none" [src]="logoImage" />
-      </ng-template>
-    </ng-content>
+    <a href="/" class="logo-link">
+      <ng-content *ngIf="logoImage; else noLogo">
+        <img
+          [src]="commonService.settings().favicon"
+          class="logo-img"
+          *ngIf="isCollapsed; else noCollased"
+        />
+        <ng-template #noCollased>
+          <img class="pointer-events-none" [src]="logoImage" />
+        </ng-template>
+      </ng-content>
 
-    <ng-template #noLogo>
-      <img [src]="commonService.settings().favicon" class="logo-img" />
-      <span class="web-title" *ngIf="!isCollapsed">{{
-        commonService.settings().sideTitle || commonService.title()
-      }}</span>
-    </ng-template>
+      <ng-template #noLogo>
+        <img [src]="commonService.settings().favicon" class="logo-img" />
+        <span class="web-title" *ngIf="!isCollapsed">{{
+          commonService.settings().sideTitle || commonService.title()
+        }}</span>
+      </ng-template>
+    </a>
   </div>
 
   <ul nz-menu nzMode="inline" class="sider dark-bg select-none auto-scrollbar">
