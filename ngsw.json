@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1793087667205,
+  "timestamp": 1793087704265,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -52,7 +52,7 @@
         "./chunk-X6RJC3OG.js",
         "./chunk-XESPKS5W.js",
         "./index.html",
-        "./main-C66LBNO6.js",
+        "./main-H3NE3X56.js",
         "./manifest.webmanifest",
         "./polyfills-4CC7B7AK.js",
         "./styles-SKM2IHF6.css"
@@ -139,8 +139,8 @@
     "./chunk-XESPKS5W.js": "aa82e5db7671d93a2693e3241a7f6ba859a23147",
     "./icons/icon-192x192.png": "a4c550020c8215caae07afeef03c77b59e3212b3",
     "./icons/icon-512x512.png": "8133cc77ee8ce9b7c777f0de6addd43581eaf6c9",
-    "./index.html": "e315261404db8ed1eb899da42efee2da4df034b9",
-    "./main-C66LBNO6.js": "1e54e489b4ec673767e40627bcdb7b7942ca4cd4",
+    "./index.html": "2d72cd31589903a9d974b7263d1f4aea4d707907",
+    "./main-H3NE3X56.js": "867223b63e058c5cbc6c75f00450694448b5fecb",
     "./manifest.webmanifest": "b66fb73faf8f03e1878fb9b1f88f9a83f89bec38",
     "./media/Amiko-Regular-VY3IM2XM.ttf": "2c0ff4c40eb6454c534801124ec502bd8417b232",
     "./media/iconfont-BQFD5RV6.woff": "c024a0e0818c9bc14d4c806085f7f183c34f186b",
