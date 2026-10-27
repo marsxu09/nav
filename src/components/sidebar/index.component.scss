@@ -127,3 +127,11 @@
     align-items: center;
   }
 }
+// Logo link styles
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
